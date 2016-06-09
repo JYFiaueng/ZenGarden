@@ -1,0 +1,285 @@
+body {
+  overflow-x: hidden;
+  font-family: Times, 'New Century Schoolbook', Georgia, 'New York', "Microsoft YaHei", serif;
+  color: #fff;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?oit4d3");
+  src: url("fonts/icomoon.eot?oit4d3#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?oit4d3") format("truetype"), url("fonts/icomoon.woff?oit4d3") format("woff"), url("fonts/icomoon.svg?oit4d3#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-circle-down:before {
+  content: "\ea43";
+}
+
+.icon-embed:before {
+  content: "\ea7f";
+}
+
+.icon-embed2:before {
+  content: "\ea80";
+}
+
+.icon-chrome:before {
+  content: "\ead9";
+}
+
+.icon-firefox:before {
+  content: "\eada";
+}
+
+.icon-IE:before {
+  content: "\eadb";
+}
+
+.icon-edge:before {
+  content: "\eadc";
+}
+
+.icon-safari:before {
+  content: "\eadd";
+}
+
+.icon-opera:before {
+  content: "\eade";
+}
+
+.icon-html-five:before {
+  content: "\eae4";
+}
+
+.icon-html-five2:before {
+  content: "\eae5";
+}
+
+.icon-css3:before {
+  content: "\eae6";
+}
+
+#intro div > *, #supportingText div p, #linkList #linkList2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+abbr {
+  text-shadow: 0 0 5px #000;
+}
+
+a {
+  text-shadow: 0 0 2px #0cf;
+  color: #0ff;
+}
+
+#container {
+  background: #444 url("bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#intro {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#intro #pageHeader {
+  padding: 100px 0;
+}
+#intro #pageHeader h1 {
+  font-size: 100px;
+  font-weight: 800;
+  text-shadow: 0 0 10px #000;
+}
+#intro #pageHeader h2 {
+  padding-top: 40px;
+  font-size: 30px;
+  font-weight: 400;
+}
+#intro #quickSummary {
+  padding: 100px 0;
+}
+#intro #quickSummary p {
+  font-size: 25px;
+  font-weight: 600;
+}
+#intro #quickSummary .p2 {
+  padding-top: 20px;
+  display: inline-block;
+  width: 300px;
+}
+#intro #quickSummary .p2 a {
+  display: inline-block;
+  background-color: #33c;
+  border-radius: 3px;
+  padding: 5px 10px;
+  transition: all 0.5s;
+}
+#intro #quickSummary .p2 a:hover {
+  background-color: #006;
+}
+#intro #preamble {
+  background-color: #089DB0;
+  padding: 100px 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+#intro #preamble h3 {
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 30px;
+  text-shadow: 0 10px 5px #000;
+}
+
+#supportingText {
+  background-color: #089DBB;
+  font-size: 20px;
+  font-weight: 300;
+}
+#supportingText div:first-child {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#supportingText div:first-child h3 {
+  float: left;
+  margin-left: 10%;
+}
+#supportingText div:nth-child(2) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#supportingText div:nth-child(2) h3 {
+  float: right;
+  margin-right: 10%;
+}
+#supportingText div:nth-child(3) {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+#supportingText div:nth-child(3) h3 {
+  float: left;
+  margin-left: 10%;
+}
+#supportingText div:nth-child(4) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#supportingText div:nth-child(4) h3 {
+  float: right;
+  margin-right: 10%;
+}
+#supportingText div {
+  padding: 50px 0;
+}
+#supportingText div h3 {
+  padding: 10px 30px;
+  text-shadow: 0 3px 5px #000;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#linkList {
+  padding: 50px 0;
+}
+#linkList:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#linkList #linkList2 div {
+  display: inline-block;
+  float: left;
+  color: #333;
+  padding: 10px 40px;
+}
+#linkList #linkList2 div h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+#linkList #linkList2 div ul {
+  font-size: 16px;
+  font-weight: 400;
+}
+#linkList #linkList2 div ul li {
+  line-height: 30px;
+}
+#linkList #linkList2 div ul a {
+  color: #000;
+}
+#linkList #linkList2 div ul a:hover {
+  color: #39f;
+  text-decoration: underline;
+}
+
+#footer {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+#footer a {
+  color: #000;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+}
+#footer a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+#footer p {
+  padding-top: 50px;
+}
+
+#extraDiv1 {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  background-color: #078EA9;
+  bottom: 20px;
+  right: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+#extraDiv1:hover {
+  -webkit-animation: back 0.5s infinite;
+  -moz-animation: back 0.5s infinite;
+  -ms-animation: back 0.5s infinite;
+  -o-animation: back 0.5s infinite;
+  animation: back 0.5s infinite;
+}
+@keyframes back {
+  0% {
+    bottom: 20px;
+  }
+  50% {
+    bottom: 30px;
+    box-shadow: 0 0 10px #aaa;
+  }
+  100% {
+    bottom: 20px;
+  }
+}
+#extraDiv1:after {
+  content: "";
+  width: 2px;
+  height: 5px;
+  position: absolute;
+  left: 4px;
+  top: 30px;
+  box-shadow: 2px -2px, 4px -4px, 6px -6px, 8px -8px, 10px -10px, 12px -12px, 14px -14px, 16px -16px, 18px -18px, 20px -20px, 22px -18px, 24px -16px, 26px -14px, 28px -12px, 30px -10px, 32px -8px, 34px -6px, 36px -4px, 38px -2px, 12px -10px, 14px -9px, 16px -8px, 18px -7px, 20px -6px, 22px -7px, 24px -8px, 26px -9px, 28px -10px;
+}
+
+/*# sourceMappingURL=test.css.map */
