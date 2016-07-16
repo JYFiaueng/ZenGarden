@@ -1,6 +1,6 @@
 requirejs.config({
 	paths:{
-		jquery : "jquery-2.2.2.min.js"
+		jquery : "http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min"
 	}
 });
 
